@@ -3,6 +3,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
+// tRY CATCH uSAGE, 
 // Replace with your actual OMDB API key
 const API_KEY = '9c5a3701';
 
@@ -46,3 +47,5 @@ const movieSlice = createSlice({
 
 export const { addFavorite, removeFavorite } = movieSlice.actions;
 export default movieSlice.reducer;
+
+
