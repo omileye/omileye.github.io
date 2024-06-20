@@ -18,6 +18,13 @@ Movie Explorer is a React-based web application that allows users to search for 
 - Axios
 - OMDB API
 
+The application will bereducing Redux for state management. The main features include:
+
+User Registration: Allows new users to register by providing a username, email, and password.
+User Login: Allows existing users to login and receive a JWT token for authenticated requests.
+Movie Search: Users can search for movies and view a list of results fetched from the OMDB API.
+State Management: Utilizes Redux for managing application state, including user authentication and movie data.
+
 ## Setup
 
 1. Clone the repository
@@ -47,11 +54,5 @@ movie-explorer/
 
 
 
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
